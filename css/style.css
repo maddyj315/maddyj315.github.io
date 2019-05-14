@@ -9,17 +9,95 @@
 body {background-color: #C39EA0;
         }
 
+/* title */
 h1 {font-family: bambi;
     font-size: 50px;
-    color: #F8E5E5;}
+    color: #F8E5E5;
+    line-height: 12px;}
 
+/* headings */
+
+/* copyright */
 h3 {font-family: bambi;
-    font-size: 24px;
+    font-size: 24px;}
+
+
+/* text */
+p {line-height: 20px;
+    text-align: left;}
+
+
+
+/* main box to hold everything */
+div#main {position: static;
+        box-sizing: border-box; 
+        width: 960px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;}
+
+/* boxes that go inside of main */
+header {position: static;
+        box-sizing: border-box;
+        width: 960px;
+        height: 100px;
+        text-align: center;}
+
+header h3 {color: white;}
+
+nav {position: static;
+    box-sizing: border-box;
+    width: 960px;
+    height: 50px;
+    padding-top: 5px;
+    text-align: center;
+    z-index: 10;}
+
+
+article {position: static;
+        box-sizing: border-box;
+        float: left;
+        width: 960px;
+        height: 650px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: arial;
+        text-align: left;
+        z-index: 1;}
+
+footer {position: static;
+        box-sizing: border-box;
+        /* use this to make the footer not float*/
+        clear: both;
+        width: 960px;
+        height: 40px;
+        padding-top: 10px;
+        font-size: 12px;
+        text-align: center;}
+
+/* main links at the top */
+/* normal link */
+nav a {font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* boxes */
+    display: inline-block;
+    border: none;
     }
+    
+/*normal link*/
+nav a:link {color: #804548;
+        }
 
-a {color: #804548;}
+nav a:visited {color: #804548;
+        }
 
-a:hover {color: #FA417A;}
+nav a:hover {color: #FA417A;
+        transform: translate(-2px, -2px);}
 
-p {font-size: 16px;}
+
 
