@@ -31,7 +31,7 @@ p {line-height: 20px;
 /* main box to hold everything */
 div#main {position: static;
         box-sizing: border-box; 
-        width: 960px;
+        width: 1024px;
         height: 800px;
         margin-left: auto;
         margin-right: auto;}
@@ -39,7 +39,7 @@ div#main {position: static;
 /* boxes that go inside of main */
 header {position: static;
         box-sizing: border-box;
-        width: 960px;
+        width: 1024px;
         height: 100px;
         text-align: center;}
 
@@ -47,7 +47,7 @@ header h3 {color: white;}
 
 nav {position: static;
     box-sizing: border-box;
-    width: 960px;
+    width: 1024px;
     height: 50px;
     padding-top: 5px;
     text-align: center;
@@ -57,7 +57,7 @@ nav {position: static;
 article {position: static;
         box-sizing: border-box;
         float: left;
-        width: 960px;
+        width: 1024px;
         height: 650px;
         padding-left: 20px;
         padding-right: 20px;
@@ -71,7 +71,7 @@ footer {position: static;
         box-sizing: border-box;
         /* use this to make the footer not float*/
         clear: both;
-        width: 960px;
+        width: 1024px;
         height: 40px;
         padding-top: 10px;
         font-size: 12px;
